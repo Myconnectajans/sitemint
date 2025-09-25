@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body { height: 100%; }
+
+html,body{overflow-x:hidden;background:#000;}
+
+
+/* theme base */
+html, body { @apply bg-white text-black; }
+.dark html, .dark body { @apply bg-neutral-950 text-white; }
+.dark .card { @apply bg-neutral-900/70 border-neutral-800; }
